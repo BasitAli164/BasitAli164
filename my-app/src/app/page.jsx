@@ -3,22 +3,10 @@ import {LayoutDashboard,Torus,Ticket,MessageSquare,Calendar,MessageSquareDiff,Se
 
 const Page = () => {
   return (
-    <div className='h-[585px] flex gap-20 '>
-      <aside className='bg-red-300 p-10'>
-        <ul className='flex flex-col gap-5'>
-          <a href="/service"><li className='flex gap-4 items-center text-lg'><LayoutDashboard className='w-6'/> Dashboard</li></a>
-          <a href="/service"><li className='flex gap-4 items-center text-lg'><Torus className='w-6'/>Tours</li></a>
-          <a href="/service"><li className='flex gap-4 items-center text-lg'><Ticket className='w-6'/>Support Tickets</li></a>
-          <a href="/service"><li className='flex gap-4 items-center text-lg'><MessageSquare className='w-6'/>Inquiries</li></a>
-          <a href="/service"><li className='flex gap-4 items-center text-lg'><Calendar className='w-6'/>Booking</li></a>
-          <a href="/service"><li className='flex gap-4 items-center text-lg'><MessageSquareDiff className='w-6'/>Feedback</li></a>
-          <a href="/service"><li className='flex gap-4 items-center text-lg'><Settings className='w-6'/>Setting</li></a>
-        </ul>
-      </aside>
-      <main>
-        <p className='mt-5 text-justify mr-[70px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque illum excepturi accusantium modi tempore qui odio et sapiente, fugiat magnam, dicta sed aut nihil autem minus, ab velit dolor omnis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aperiam porro, quidem quaerat quia debitis modi, necessitatibus ex consequatur, ut odit minus sed aliquam reiciendis possimus aspernatur mollitia dolores provident labore tempora. Explicabo dolor fuga rem error porro? Delectus animi esse commodi recusandae natus. Alias vel, cupiditate aliquid voluptatibus explicabo ipsam quo odit quis quam, inventore qui non molestiae vero debitis. Architecto ducimus, accusantium nisi placeat commodi qui quibusdam expedita debitis rerum corrupti quia cupiditate optio ipsa facilis, ipsam incidunt beatae explicabo quod assumenda. Minus illum eum ipsam quaerat corporis, tempora, facere impedit repellendus magnam et incidunt quae. Sed impedit quidem enim nisi esse repellat aperiam quam voluptates, quibusdam voluptatum! Provident alias molestiae nemo, fugit illo corporis cupiditate est, inventore harum totam rerum quia distinctio laborum, consequuntur modi sunt dolore odit blanditiis nobis ad maxime dicta officiis minima. Sequi exercitationem quibusdam reiciendis nihil deleniti minus voluptatum, aliquam cupiditate pariatur voluptatibus voluptas eligendi velit vel eveniet culpa a molestias nam. Ducimus similique dicta est officia ipsum aperiam tempora debitis voluptas ipsa aspernatur quaerat fugiat, velit dolorum saepe iusto maxime hic et! Molestias neque maiores blanditiis temporibus, tempora officiis libero distinctio tempore ut corrupti quo! Quod nesciunt totam dicta, saepe asperiores iste quas, voluptate esse nostrum ullam, sunt ipsam pariatur labore iusto laborum? Repellendus, obcaecati quaerat molestiae eius sapiente reiciendis modi. Reiciendis aut culpa, iusto delectus est maiores, asperiores libero ab dolor dolores repellat eius qui exercitationem nostrum at rerum veniam fuga. Ducimus unde id corrupti magni alias deleniti, iste doloremque atque facilis sint a officia, et voluptatibus provident repellat, vel quos reiciendis dignissimos. Consequuntur iusto corrupti, totam dolorem, eos, voluptas facilis quas aspernatur accusantium ex placeat obcaecati ducimus ratione magnam? Dolor ducimus quaerat mollitia aliquid facere blanditiis! Odio dolore, rerum quibusdam et exercitationem aut recusandae. Mollitia, facere recusandae! Laudantium illum tempora eaque in culpa iure non repellat officiis architecto laborum nesciunt voluptas rerum consequatur, saepe minus, fuga minima nobis asperiores vel consectetur sunt cupiditate! Eveniet harum ullam libero tempore odio? Sit minus pariatur excepturi ipsum eveniet atque aliquid, optio odit animi, beatae commodi quo sequi suscipit facere quibusdam quidem, dolorum velit modi cumque porro ab id? Inventore veniam est quibusdam vero at amet aliquid consequuntur distinctio recusandae doloremque ex corrupti facere dolore beatae, eum incidunt? Perferendis, facilis. Iusto dolor odio aut provident magni sint distinctio dignissimos. Ipsum quasi nemo soluta labore molestiae reiciendis adipisci, dolor sed accusamus architecto corrupti tempore quo provident. Amet possimus aliquid optio aspernatur dolor aut odio iusto, repudiandae nulla unde sapiente libero minus neque beatae hic similique quo placeat molestiae. Ratione quisquam quam nostrum culpa illo iste recusandae voluptate unde maiores. Et expedita ipsam eaque quis minima, ut quam beatae necessitatibus sapiente unde perspiciatis aliquid, reiciendis rerum ab sit laborum est! Sit, a maxime. Architecto tenetur dolor quaerat amet fugiat eius? Molestiae dolorum ducimus accusantium nobis. Dolorem est quae ullam necessitatibus maiores voluptates rerum laboriosam quod sit dolore quisquam nostrum earum nulla nihil ipsa, ipsum eaque nemo voluptate iusto quam soluta hic at? Optio autem odit labore.</p>
-      </main>
-    </div>
+    <>
+    
+    </>
+  
   )
 }
 
