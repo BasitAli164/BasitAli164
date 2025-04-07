@@ -1,11 +1,12 @@
 import React from 'react'
+import Counter from './component/counter'
 
-const page = () => {
+const HomePage = () => {
   return (
-    <div>
-      
+    <div className='h-screen w-full flex justify-center items-center'>
+      <Counter/>
     </div>
   )
 }
 
-export default page
+export default HomePage
