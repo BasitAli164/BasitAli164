@@ -1,13 +1,11 @@
 import React from 'react'
-import {LayoutDashboard,Torus,Ticket,MessageSquare,Calendar,MessageSquareDiff,Settings} from 'lucide-react'
 
-const Page = () => {
+const page = () => {
   return (
-    <>
-    
-    </>
-  
+    <div>
+      
+    </div>
   )
 }
 
-export default Page
+export default page

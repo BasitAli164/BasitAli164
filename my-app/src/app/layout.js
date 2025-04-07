@@ -1,6 +1,4 @@
 import './globals.css'
-import Header from "@/app/component/header";
-import Footer from "@/app/component/footer";
 export default function RootLayout({ children }) {
   return (
     <html lang="en" >
@@ -12,9 +10,9 @@ export default function RootLayout({ children }) {
         <title>Mountain Travels Agency</title>
       </head>
       <body>
-        <Header/> 
+        
         {children}
-        <Footer/>
+       
       
       </body>
     </html>
