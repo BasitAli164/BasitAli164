@@ -16,9 +16,9 @@ export default function Error({ error, reset }) {
       <p>Digest: {error.digest}</p>
       <button
         onClick={() => {
-         startTransition(()=>{
+         startTransition(()=>{ // startTransition help to refresh and get data from server component
            reset();
-          router.refresh()
+          router.refresh() // this one use to refresh
          })
 
         }}
