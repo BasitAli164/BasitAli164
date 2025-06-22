@@ -16,11 +16,11 @@ export default function Error({ error, reset }) {
       <p>Digest: {error.digest}</p>
       <button
         onClick={() => {
-         startTransition(()=>{ // startTransition help to refresh and get data from server component
-           reset();
-          router.refresh() // this one use to refresh
-         })
-
+          startTransition(() => {
+            // startTransition help to refresh and get data from server component
+            reset();
+            router.refresh(); // this one use to refresh
+          });
         }}
         className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-400 cursor-pointer"
       >
