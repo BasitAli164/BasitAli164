@@ -32,7 +32,7 @@ const url = [
 export default async function Parallel() {
 
     const [post,comment,album]=await Promise.all(url.map((url)=>fetchData(url)))
-        console.log("Post Data: ",post,"\n","Comment Data: ",comment,'\n',"AlbumData: ",album)
+        // console.log("Post Data: ",post,"\n","Comment Data: ",comment,'\n',"AlbumData: ",album)
 
   return <div></div>;
 }
