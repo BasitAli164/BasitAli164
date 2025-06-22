@@ -25,7 +25,7 @@ const fetchData = async (url) => {
 };
 
 const url = [
-  "https://jsonplaceholder.typicodse.com/posts?_limit=5",
+  "https://jsonplaceholder.typicode.com/posts?_limit=5",
   "https://jsonplaceholder.typicode.com/comments?_limit=5",
   "https://jsonplaceholder.typicode.com/albums?_limit=5",
 ];
