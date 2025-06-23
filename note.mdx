@@ -27,6 +27,13 @@ There are maninly tow types of rendering
             --> if our page fetch new data after second then we use this rendering means in date and time,  weather website each request that give new or update time and date and weather then we use this in that component:
                 export const revalidate="Time"
                 e.g., export const revalidate= 5 ----> 5second
+                
+                Note: We only use ISG if we are working with SSG rendering otherwise not
 
 2. Client Side Rendering
     This rendering use libraries like react where the server sent js code and our browser change them into html and css ....
+
+
+@ How to create a Static page as Dynamic routes or page
+ans: for this we write this line of code inside the static page in above:
+    export dynamic="force-dynamic"
