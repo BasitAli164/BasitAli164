@@ -12,13 +12,8 @@ const data = [
   { title: "Papaar", price: 100, btn: "Order Now" },
   { title: "Choclate", price: 500, btn: "Order Now" },
 ];
-const Product = ({params}) => {
-    const router=useRouter()
-
-    const orderNow=async()=>{
-        const id=await params;
-        router.push(`product/${id}`)
-    }
+const Product = () => {
+   
   
   return (
     <div className="w-full h-screen p-10 flex justify-center items-center gap-5 ">
@@ -29,7 +24,7 @@ const Product = ({params}) => {
             <p>Product Price:{item.price}</p>
             </div>
             <div>
-                <button className="px-8 py-4 bg-amber-600 font-bold rounded-xl cursor-pointer" onClick={orderNow}>{item.btn}</button>
+                <button className="px-8 py-4 bg-amber-600 font-bold rounded-xl cursor-pointer" >{item.btn}</button>
             </div>
         </div>
       ))}
