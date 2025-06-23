@@ -17,7 +17,9 @@ const Contact = () => {
           <button className="px-10 py-5 border-none outline-none bg-[yellowgreen] text-2xl rounded-full cursor-pointer hover:bg-green-600 transition duration-700 delay-100 text-white ">Check Now</button>
         </div>
       </div>
-      <div className="bg-[yellowgreen]">
+      <div className="bg-[yellowgreen] flex flex-col justify-center items-center gap-8">
+        <p>Contact Us</p>
+        
 
       </div>
     </div>
