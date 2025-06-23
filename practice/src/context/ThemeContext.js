@@ -1,5 +1,5 @@
 'use client'
-import { createContext, useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 
 export const ThemeContext = createContext();
 
@@ -26,4 +26,9 @@ export default function ThemeProvider({ children }) {
   return (
     <ThemeContext.Provider value={toggle}>{children}</ThemeContext.Provider>
   );
+}
+
+// custome hook
+export const useTheme=()=>{
+    return useContext(ThemeContext)
 }
