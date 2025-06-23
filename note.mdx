@@ -10,3 +10,23 @@ Learn about folder/directory bsae routing in next js. Next js provide the follwo
 6. Optional Catch all routes ---> [[...slugName]] ---> this does not create or define on root level becasue this confilict with home page route
 7. Private route ---> _folderName
 8. skip or don't show in url ---> () 
+
+
+Day-2
+
+Rendering   paradigms
+There are maninly tow types of rendering 
+1. Server Side Rendering
+    It has also tow type of rendering 
+        i- Static site Rendering 
+            --> Create a function and keep name generateStaticParams and return an array from this function 
+            --> This is used when we have a Dynamic generate but frequently visited page we create during build time
+            --> if we don't generate another page means we want to stop to generate after build then we export this: 
+                        export const DynamicParams=false
+        ii- Incremental Static Regeneration:
+            --> if our page fetch new data after second then we use this rendering means in date and time,  weather website each request that give new or update time and date and weather then we use this in that component:
+                export const revalidate="Time"
+                e.g., export const revalidate= 5 ----> 5second
+
+2. Client Side Rendering
+    This rendering use libraries like react where the server sent js code and our browser change them into html and css ....
