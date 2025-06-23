@@ -6,11 +6,13 @@ export const ThemeContext = createContext();
 export default function ThemeProvider({ children }) {
   const [isDark, setIsDark] = useState(
     // localStorage.getItem("isDark")==="false"?false:true // both are same
-        localStorage.getItem("isDark")==="true"
+        // localStorage.getItem("isDark")==="true"
+        true
   );
   function toggle() {
     setIsDark((prev) => !prev);
   }
+  useEffect(()=>{},[])
   useEffect(() => {
     localStorage.setItem("isDark",isDark)
     isDark
