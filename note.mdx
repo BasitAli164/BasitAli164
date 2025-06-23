@@ -35,5 +35,30 @@ There are maninly tow types of rendering
 
 
 @ How to create a Static page as Dynamic routes or page
-ans: for this we write this line of code inside the static page in above:
+ans-1: for this we write this line of code inside the static page in above:
     export dynamic="force-dynamic"
+ans-2
+function async dyn({searchParams}){
+    const search =await searchParams; // this line also make the static page as dynamic means it does not create html file at build time
+    return (
+        <>
+        </>
+    )
+}
+
+
+
+
+Types of Component: 
+there are tow type of component provide the next js 
+1. Server Component (by default)
+2. Client Component:
+    To make the component as a client component we are use directives ("use client") at the top  of the compoenent
+
+    directives: 
+        There are tow type of directives provide next js: 
+            i- use client
+            ii- use server (don't required because compoenent are server component by default)
+
+
+
