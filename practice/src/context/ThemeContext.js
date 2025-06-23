@@ -1,15 +1,19 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
-const ThemeContext=createContext()
+const ThemeContext = createContext();
 
+export default function ThemeProvider({ children }) {
+  const [isDark, setIsDark] = useState(true);
+  function toggle() {
+    setIsDark((prev) => !prev);
+  }
+  useEffect(() => {
+    isDark
+      ? document.documentElement.classList.add("dark")
+      : document.documentElement.classList.add("remove");
+  }, [isDark]);
 
-export default function ThemeProvider({children}) {
-    const [isDark,setIsDark]=useState(true)
-    function toggle(){
-        setIsDark((prev)=>!prev)
-    }
-
-  return <ThemeContext.Provider value={toggle}>
-    {children}
-  </ThemeContext.Provider>
+  return (
+    <ThemeContext.Provider value={toggle}>{children}</ThemeContext.Provider>
+  );
 }
