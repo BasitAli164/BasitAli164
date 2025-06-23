@@ -10,7 +10,7 @@ export default function ThemeProvider({ children }) {
   useEffect(() => {
     isDark
       ? document.documentElement.classList.add("dark")
-      : document.documentElement.classList.add("remove");
+      : document.documentElement.classList.remove("dark");
   }, [isDark]);
 
   return (
