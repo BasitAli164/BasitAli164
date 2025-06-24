@@ -1,9 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import { MenuSquare } from "lucide-react";
+import { MenuSquare, } from "lucide-react";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
+  const [serviceToggle,setServiceToggle]=useState(false)
 
   return (
     <>
@@ -40,13 +41,25 @@ const Header = () => {
             Prodcuts
           </li>
           <li className="list-none px-5 py-2 text-lg cursor-pointer hover:text-[yellowgreen]  transition delay-500 duration-700 ease-in-out">
-            Service
+            Service 
           </li>
           <li className="list-none px-5 py-2 text-lg cursor-pointer hover:text-[yellowgreen]  transition delay-500 duration-700 ease-in-out">
             Contact
           </li>
         </div>
       )}
+
+      {
+        serviceToggle &&(
+            <ul className="bg-blue-700"> 
+                <li>Engage</li>
+                <li>Pontificate</li>
+                <li>Synergize</li>
+
+            </ul>
+        )
+      }
+
     </>
   );
 };
