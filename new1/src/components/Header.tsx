@@ -10,7 +10,7 @@ const Header = () => {
     <>
       <header className="w-full flex justify-between md:items-center bg-transparent px-16 py-5 border-b-[2px] fixed">
         <div>
-          <p className="tracking-[4px] text-[yellowgreen] text-xl cursor-pointer bold transition duration-700 delay-100 ease-in-out">
+          <p className="tracking-[3px] text-[yellowgreen] text-xl cursor-pointer bold transition duration-700 delay-100 ease-in-out">
             LOGO
           </p>
         </div>
@@ -46,7 +46,7 @@ const Header = () => {
           </li>
         </ul>
         <div className="md:hidden">
-          <MenuSquare className="cursor-pointer" onClick={() => setToggle(!toggle)} />
+          <MenuSquare className="cursor-pointer" color="#e9e9e9" onClick={() => setToggle(!toggle)} />
         </div>
       </header>
       {toggle && (
