@@ -10,13 +10,13 @@ const Header = () => {
     <>
     <header className="w-full flex justify-between md:items-center bg-transparent p-6 border-b-[2px] fixed">
       <div>
-        <p className="tracking-[4px] text-[yellowgreen] text-xl">LOGO</p>
+        <p className="tracking-[4px] text-[yellowgreen] text-xl cursor-pointer">LOGO</p>
       </div>
       <ul className="hidden md:flex gap-12">
-        <li>Home</li>
-        <li>Prodcuts</li>
-        <li>Service</li>
-        <li>Contact</li>
+        <li className="text-lg opacity-60 cursor-pointer hover:opacity-100 text-[yellowgreen]">Home</li>
+        <li className="text-lg opacity-60 cursor-pointer hover:opacity-100">Prodcuts</li>
+        <li className="text-lg opacity-60 cursor-pointer hover:opacity-100">Service</li>
+        <li className="text-lg opacity-60 cursor-pointer hover:opacity-100">Contact</li>
       </ul>
       <div className="md:hidden">
         <MenuSquare onClick={()=>setToggle(!toggle)}/>
@@ -24,11 +24,11 @@ const Header = () => {
       </div>
     </header>
      {toggle && (
-          <div className="w-full bg-red-200 absolute top-14 transition-all md:hidden">
-            <li className="list-none border-b px-5 py-2 text-lg text-[yellowgreen]">Home</li>
-            <li className="list-none border-b px-5 py-2 text-lg">Prodcuts</li>
-            <li className="list-none border-b px-5 py-2 text-lg">Service</li>
-            <li className="list-none border-b px-5 py-2 text-lg">Contact</li>
+          <div className="w-full absolute top-20  md:hidden">
+            <li className="list-none px-5 py-2 text-lg cursor-pointer text-[yellowgreen] hover:text-[yellowgreen]">Home</li>
+            <li className="list-none px-5 py-2 text-lg cursor-pointer hover:text-[yellowgreen]">Prodcuts</li>
+            <li className="list-none px-5 py-2 text-lg cursor-pointer hover:text-[yellowgreen]">Service</li>
+            <li className="list-none px-5 py-2 text-lg cursor-pointer hover:text-[yellowgreen]">Contact</li>
           </div>
         )}
     </>
