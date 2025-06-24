@@ -10,13 +10,13 @@ const Header = () => {
     <>
     <header className="w-full flex justify-between md:items-center bg-transparent p-6 border-b-[2px] fixed">
       <div>
-        <p className="tracking-[4px] text-[yellowgreen] text-xl cursor-pointer">LOGO</p>
+        <p className="tracking-[4px] text-[yellowgreen] text-xl cursor-pointer opacity-60 hover:opacity-100 transition duration-700 delay-100 ease-in-out">LOGO</p>
       </div>
       <ul className="hidden md:flex gap-12">
-        <li className="text-lg opacity-60 cursor-pointer hover:opacity-100 text-[yellowgreen]">Home</li>
-        <li className="text-lg opacity-60 cursor-pointer hover:opacity-100">Prodcuts</li>
-        <li className="text-lg opacity-60 cursor-pointer hover:opacity-100">Service</li>
-        <li className="text-lg opacity-60 cursor-pointer hover:opacity-100">Contact</li>
+        <li className="text-lg opacity-60 cursor-pointer hover:opacity-100 text-[yellowgreen] transition-all delay-100 duration-700 ease-in-out">Home</li>
+        <li className="text-lg opacity-60 cursor-pointer hover:opacity-100  transition-all delay-100 duration-700 ease-in-out">Prodcuts</li>
+        <li className="text-lg opacity-60 cursor-pointer hover:opacity-100 transition-all delay-100 duration-700 ease-in-out">Service</li>
+        <li className="text-lg opacity-60 cursor-pointer hover:opacity-100 transition-all delay-100 duration-700 ease-in-out">Contact</li>
       </ul>
       <div className="md:hidden">
         <MenuSquare onClick={()=>setToggle(!toggle)}/>
