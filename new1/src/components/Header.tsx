@@ -8,22 +8,39 @@ const Header = () => {
 
   return (
     <>
-      <header className="w-full flex justify-between md:items-center bg-transparent p-6 border-b-[2px] fixed">
+      <header className="w-full flex justify-between md:items-center bg-transparent px-16 py-5 border-b-[2px] fixed">
         <div>
           <p className="tracking-[4px] text-[yellowgreen] text-xl cursor-pointer opacity-60 hover:opacity-100 transition duration-700 delay-100 ease-in-out">
             LOGO
           </p>
         </div>
-        <ul className="hidden md:flex gap-12">
+        <ul className="hidden md:flex justify-center items-center gap-10">
           <li className="text-lg opacity-60 cursor-pointer hover:opacity-100 text-[yellowgreen] transition delay-100 duration-700 ease-in-out">
             Home
           </li>
           <li className="text-lg opacity-60 cursor-pointer hover:opacity-100  transition delay-100 duration-700 ease-in-out">
             Prodcuts
           </li>
-          <li className=" flex gap-5 justify-center items-center text-lg opacity-60 cursor-pointer hover:opacity-100 transition delay-100 duration-700 ease-in-out">
-            Service <ArrowDown size={20}/>
-          </li>
+           <div  >
+          <div>
+             <li className="flex  items-center gap-1 list-none text-lg cursor-pointer hover:text-[yellowgreen]  transition delay-100 duration-700 ease-in-out" onClick={()=>{setServiceToggle(!serviceToggle)}} >
+            Service <ArrowDown size={15} />
+            </li>
+          </div>
+            {
+        serviceToggle &&(
+          
+            <ul className="w-44 bg-[#fff] absolute top-[70px] right-20 shadow-xl rounded-sm"> 
+                <li className="px-5  text-lg hover:text-[yellowgreen] transition duration-700 delay-100 ease-in-out cursor-pointer">Engage</li>
+                <li className="px-5 py-0.5 text-lg hover:text-[yellowgreen] transition duration-700 delay-100 ease-in-out cursor-pointer">Pontificate</li>
+                <li className="px-5 py-0.5 text-lg hover:text-[yellowgreen] transition duration-700 delay-100 ease-in-out cursor-pointer">Synergize</li>
+
+            </ul>
+        )
+      }
+
+          
+         </div>
           <li className="text-lg opacity-60 cursor-pointer hover:opacity-100 transition delay-100 duration-700 ease-in-out">
             Contact
           </li>
