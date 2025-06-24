@@ -28,7 +28,7 @@ const Header = () => {
           </li>
         </ul>
         <div className="md:hidden">
-          <MenuSquare onClick={() => setToggle(!toggle)} />
+          <MenuSquare className="cursor-pointer" onClick={() => setToggle(!toggle)} />
         </div>
       </header>
       {toggle && (
