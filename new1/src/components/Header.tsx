@@ -2,15 +2,15 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header>
+    <header className="flex justify-between items-center bg-transparent p-6 border-b-[2px]">
       <div>
-        <p>LOGO</p>
+        <p className="">LOGO</p>
       </div>
-      <ul>
+      <ul className="flex gap-10">
         <li>Home</li>
         <li>Prodcuts</li>
         <li>Service</li>
-        <li>Contactx</li>
+        <li>Contact</li>
       </ul>
     </header>
   );
