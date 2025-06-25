@@ -8,11 +8,11 @@ const Header = () => {
 
   return (
     <>
-    <header className="w-full flex justify-between items-center bg-transparent p-6 border-b-[2px] fixed">
+    <header className="w-full flex justify-between md:items-center bg-transparent p-6 border-b-[2px] fixed">
       <div>
-        <p className="tracking-[4px] text-[yellowgreen]">LOGO</p>
+        <p className="tracking-[4px] text-[yellowgreen] text-xl">LOGO</p>
       </div>
-      <ul className="hidden lg:flex gap-12">
+      <ul className="hidden md:flex gap-12">
         <li>Home</li>
         <li>Prodcuts</li>
         <li>Service</li>
@@ -24,11 +24,11 @@ const Header = () => {
       </div>
     </header>
      {toggle && (
-          <div className="w-full bg-red-200 absolute top-14 transition-all">
-            <li className="list-none border-b p-2 text-[yellowgreen]">Home</li>
-            <li className="list-none border-b p-2">Prodcuts</li>
-            <li className="list-none border-b p-2">Service</li>
-            <li className="list-none border-b p-2">Contact</li>
+          <div className="w-full bg-red-200 absolute top-14 transition-all md:hidden">
+            <li className="list-none border-b px-5 py-2 text-lg text-[yellowgreen]">Home</li>
+            <li className="list-none border-b px-5 py-2 text-lg">Prodcuts</li>
+            <li className="list-none border-b px-5 py-2 text-lg">Service</li>
+            <li className="list-none border-b px-5 py-2 text-lg">Contact</li>
           </div>
         )}
     </>
