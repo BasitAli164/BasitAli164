@@ -88,7 +88,7 @@ svg{
     align-items: center;
     gap: 40px;
 }
-.mainContainer .menulist button{
+.mainContainer .menulist .mainbtns{
     all: unset;
     font-size: 18px;
     color: black;
@@ -99,10 +99,18 @@ svg{
 
 }
 
-.mainContainer .menulist button:hover{
+.mainContainer .menulist .mainbtns:hover{
     background: #ebebeb;
     cursor: pointer;
     transition: all .3s ;
     color: blue;
+
+}
+.mainContainer .menulist .mainheaderbtn{
+    all: unset;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
 
 }
