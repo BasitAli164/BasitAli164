@@ -139,6 +139,12 @@ svg{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 
+}
+.mainContainerOfMainPage h1{
+    font-size: 50px;
+}
+.mainContainerOfMainPage p{
+    font-size: 20px;
 }
