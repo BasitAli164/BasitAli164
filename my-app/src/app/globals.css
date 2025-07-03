@@ -121,14 +121,4 @@ svg{
     cursor: pointer;
      background: #1b6cc7;
 }
-.mainContainer .menulist .mainbtnsTri::after{
-    content: "";
-    width: 12px;
-    height: 12px;
-    background: #000;
-    position: absolute;
-    right: 0px;
-    right: 480px;
-    rotate: 45deg;
-}
 
