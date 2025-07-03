@@ -8,7 +8,7 @@ const Header = () => {
         </div>
         <div className="menulist">
             <button className='mainbtns'>Home</button>
-            <button className='mainbtns'>Services</button>
+            <button className='mainbtns mainbtnsTri'>Services </button>
             <button className='mainbtns'>About Us</button>
             <button className='mainbtns'>Blog</button>
             <button className='mainheaderbtn'>Contact Us</button>

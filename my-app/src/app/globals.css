@@ -87,6 +87,7 @@ svg{
     justify-content: center;
     align-items: center;
     gap: 25px;
+    position: relative;
 }
 .mainContainer .menulist .mainbtns{
     all: unset;
@@ -121,3 +122,11 @@ svg{
     cursor: pointer;
      background: #1b6cc7;
 }
+.mainContainer .menulist .mainbtnsTri::before{
+    content: "";
+    width: 1000px;
+    height: 10px;
+    background: #000;
+    position: absolute;
+}
+
