@@ -1,4 +1,4 @@
-import { Pyramid, Triangle } from 'lucide-react'
+import { ArrowDown, Pyramid, Triangle } from 'lucide-react'
 import React from 'react'
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
         </div>
         <div className="menulist">
             <button className='mainbtns'>Home</button>
-            <button className='mainbtns '>Services <Triangle className='triangle'/> </button>
+            <button className='mainbtns specialbtn '>Services <ArrowDown  className='arrow'/> </button>
             <button className='mainbtns'>About Us</button>
             <button className='mainbtns'>Blog</button>
             <button className='mainheaderbtn'>Contact Us</button>

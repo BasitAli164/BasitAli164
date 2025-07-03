@@ -122,5 +122,10 @@ svg{
      background: #1b6cc7;
 }
 
-.mainContainer.menulist .triangle{
+.mainContainer .menulist .arrow{
+    position: relative;
+    top: 8px;
+    left: 2px;
+    
 }
+
