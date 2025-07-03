@@ -14,6 +14,8 @@
     background: #ffffff;
     padding: 5px 10px;
     opacity: 0.6;
+    position: fixed;
+    top: 0;
 }
 
 .contactDetail{
@@ -75,6 +77,9 @@ svg{
     align-items: center;
     border-bottom: 1px solid ;
     padding: 25px 50px;
+    position: fixed;
+    top: 20px;
+    width: 100%;
 }
 .mainContainer .logo h1{
     font-weight: 550;
@@ -127,4 +132,13 @@ svg{
     top: 8px;
     left: 2px;    
 }
+.mainContainerOfMainPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 
+}
