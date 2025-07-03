@@ -86,13 +86,13 @@ svg{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 25px;
 }
 .mainContainer .menulist .mainbtns{
     all: unset;
     font-size: 18px;
     color: black;
-     padding: 10px 20px;
+     padding: 17.5px 20px;
      cursor: pointer;
      border-radius: 5px;
      font-weight: bold;
@@ -112,5 +112,12 @@ svg{
     border-radius: 5px;
     font-size: 18px;
     font-weight: bold;
+    background: #3391ff;
+    color: #ffffff;
+    transition: all .3s linear;
 
+}
+.mainContainer .menulist .mainheaderbtn:hover{
+    cursor: pointer;
+     background: #1b6cc7;
 }
