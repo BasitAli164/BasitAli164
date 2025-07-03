@@ -84,6 +84,7 @@ svg{
 .mainContainer .logo h1{
     font-weight: 550;
     font-size: 24px;
+    cursor: pointer;
 
 }
 
@@ -129,7 +130,7 @@ svg{
 
 .mainContainer .menulist .arrow{
     position: relative;
-    top: 8px;
+    top: 4px;
     left: 2px;    
 }
 .mainContainerOfMainPage{
