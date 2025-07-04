@@ -59,6 +59,9 @@ svg{
 }
 
 @media (width<600px) {
+    .contactDetail{
+        gap:10px;
+    }
    .minipara{
         display: none;
     }
