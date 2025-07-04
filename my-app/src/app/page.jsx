@@ -1,10 +1,9 @@
-import React from 'react'
-import EmailTemplate from './component/template'
+import MiniHeader from './component/navbar/aboveHeader'
 
 const HomePage = () => {
   return (
   <>
-  <EmailTemplate/>
+  <MiniHeader/>
   </>
   )
 }
