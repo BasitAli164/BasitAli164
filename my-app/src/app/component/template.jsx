@@ -16,8 +16,20 @@ const EmailTemplate = () => {
             <strong className='font-bold text-3xl text-[#3092ea]'>Total: $[Total Amount]</strong>
 
         </div>
-        <div className='p-10'>
+        <div className='p-10 w-full'>
             <p className='text-[#3092ea] font-bold text-xl'>Your Item</p>
+            <div className='p-10'>
+                <div className='flex justify-between border-[5px] border-solid border-white '>
+                    <div >
+                        <p className='font-bold text-2xl'>[Product Name 1]</p>
+                        <p className='text-xl'>Qty: 1 • [Product Code]</p>
+                    </div>
+                    <div>
+                        <p className='text-2xl font-bold'>$[Price]</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
       
     </div>
