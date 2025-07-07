@@ -3,7 +3,7 @@ import React from "react";
 const EmailTemplate = () => {
   return (
     <div className=" flex justify-center items-center bg-[#1b1e1f]">
-      <div className="w-1/2  bg-gray-900 text-[#e9e9e9] border-[7px] border-solid border-red-800 ">
+      <div className="w-1/2  bg-gray-900 text-[#e9e9e9]  ">
         <div className="p-20  text-center">
           <h1 className="text-4xl font-bold text-[#3092ea] ">
             Order Confirmed!
