@@ -87,9 +87,9 @@ const EmailTemplate = () => {
             We'll email you when your order ships
           </p>
         </div>
-        <div>
-          <p>Questions?</p>
-          <p>Email us at support@yourstore.com or call 1-800-123-4567</p>
+        <div className="text-center p-20">
+          <p className="text-xl font-bold text-[#3092ea]">Questions?</p>
+          <p className="text-lg my-5">Email us at <span className="text-[#3092ea]">support@yourstore.com </span>or call 1-800-123-4567</p>
         </div>
       </div>
     </div>
