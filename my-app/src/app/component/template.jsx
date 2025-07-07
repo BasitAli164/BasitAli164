@@ -89,7 +89,17 @@ const EmailTemplate = () => {
         </div>
         <div className="text-center p-20">
           <p className="text-xl font-bold text-[#3092ea]">Questions?</p>
-          <p className="text-lg my-5">Email us at <span className="text-[#3092ea]">support@yourstore.com </span>or call 1-800-123-4567</p>
+          <p className="text-lg my-5">
+            Email us at{" "}
+            <span className="text-[#3092ea]">support@yourstore.com </span>or
+            call 1-800-123-4567
+          </p>
+        </div>
+
+        <div className="p-10 bg-[#3092ea] text-center">
+          <p className="text-xl">Thanks for shopping with us! 🙏</p>
+          <p className="mt-10">© 2024 Your Company Name </p>
+          <p className="underline">Unsubscribe</p>
         </div>
       </div>
     </div>
