@@ -1,11 +1,11 @@
 import React from 'react'
-import Counter from './component/counter'
+import EmailTemplate from './component/template'
 
 const HomePage = () => {
   return (
-    <div className='h-screen w-full flex justify-center items-center'>
-      <Counter/>
-    </div>
+  <>
+  <EmailTemplate/>
+  </>
   )
 }
 
