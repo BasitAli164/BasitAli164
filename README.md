@@ -1,5 +1,20 @@
 # 💫 About Me:
-🔭 I’m currently a Web Developer at NETBOTS.<br>👯 I want to collaborate on open-source projects, innovative web apps, or AI integrations.<br>🤝 I’m seeking help scaling applications or mastering DevOps tools like Docker/Kubernetes.<br>🌱 I’m currently learning NEXT.js,  Zustand, Chromadb.<br>💬 Ask me about JavaScript frameworks, backend optimization, or tech career advice.<br>⚡ Fun fact: Don't judge a book by it's cover!
+### 👋 Hi, I'm Basit Ali
+
+💻 I'm a Web Developer at **NETBOTS**  
+🎓 CS Student at **University of Baltistan**, Skardu  
+🛠 Full Stack Dev — Next.js • Node.js • MongoDB • Tailwind • TypeScript
+
+---
+
+- 👯 I want to collaborate on **open-source projects**, **innovative web apps**, or **AI integrations**
+- 🤝 I’m seeking help scaling applications & mastering **DevOps tools** like **Docker/Kubernetes**
+- 🌱 I’m currently learning **Next.js**, **Zustand**, and **ChromaDB**
+- 💬 Ask me about **JavaScript frameworks**, **backend optimization**, or **tech career advice**
+- ⚡ Fun fact: *Don't judge a book by its cover!*
+
+---
+
 
 
 ## 🌐 Socials:
