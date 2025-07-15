@@ -4,10 +4,15 @@
 💻 I'm a Web Developer at **NETBOTS**  
 🎓 CS Student at **University of Baltistan**, Skardu  
 🛠 Full Stack Dev — Next.js • Node.js • MongoDB • Tailwind • TypeScript
-👯 I want to collaborate on **open-source projects**, **innovative web apps**, or **AI integrations**
-🌱 I’m currently learning **Gen-ai**, **Redux Toolkit**, and **ChromaDB**
-💬 Ask me about **JavaScript frameworks**, **backend optimization**, or **tech career advice**
-⚡ Fun fact: *Don't judge a book by its cover!*
+
+---
+
+- 👯 I want to collaborate on **open-source projects**, **innovative web apps**, or **AI integrations**
+- 🌱 I’m currently learning **Next.js**, **Zustand**, and **ChromaDB**
+- 💬 Ask me about **JavaScript frameworks**, **backend optimization**, or **tech career advice**
+- ⚡ Fun fact: *Don't judge a book by its cover!*
+
+---
 
 
 
