@@ -8,7 +8,6 @@
 ---
 
 - 👯 I want to collaborate on **open-source projects**, **innovative web apps**, or **AI integrations**
-- 🤝 I’m seeking help scaling applications & mastering **DevOps tools** like **Docker/Kubernetes**
 - 🌱 I’m currently learning **Gen-ai**, **Redux Toolkit**, and **ChromaDB**
 - 💬 Ask me about **JavaScript frameworks**, **backend optimization**, or **tech career advice**
 - ⚡ Fun fact: *Don't judge a book by its cover!*
