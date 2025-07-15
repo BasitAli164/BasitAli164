@@ -8,7 +8,7 @@
 ---
 
 - 👯 I want to collaborate on **open-source projects**, **innovative web apps**, or **AI integrations**
-- 🌱 I’m currently learning **Next.js**, **Zustand**, and **ChromaDB**
+- 🌱 I’m currently learning **Gem-ai**, **Redux Toolkit**, and **ChromaDB**
 - 💬 Ask me about **JavaScript frameworks**, **backend optimization**, or **tech career advice**
 - ⚡ Fun fact: *Don't judge a book by its cover!*
 
