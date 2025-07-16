@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
 👋 Hi, I’m Basit Ali , Gilgit Baltistan
 
 👀 I’m interested in coding, especially in web development, and exploring new things in the tech field.
