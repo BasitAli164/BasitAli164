@@ -6,7 +6,11 @@ const Product = () => {
     <div className="flex flex-col justify-center items-center">
       <div className="flex flex-col md:flex-row justify-center items-center gap-10 sm:gap-12 md:gap-14 lg:gap-16 xl:gap-20 p-8 sm:p-10 md:p-14 lg:p-28 ">
         <div className="">
-          <Image src={img1} alt="microphone-img" className="rounded-full w-[400px] lg:w-[1000px]" />
+          <Image
+            src={img1}
+            alt="microphone-img"
+            className="rounded-full w-[400px] lg:w-[1000px]"
+          />
         </div>
 
         <div className="flex flex-col justify-center items-start gap-2 sm:gap-4 md:gap-6 lg:gap-8">
@@ -42,13 +46,14 @@ const Product = () => {
           </div>
         </div>
 
-        <div >
-                    <Image src={img2} alt="microphone-img" className="rounded-full w-[400px] lg:w-[1000px]" />
-
-          
+        <div>
+          <Image
+            src={img2}
+            alt="microphone-img"
+            className="rounded-full w-[400px] lg:w-[1000px]"
+          />
         </div>
       </div>
-     
     </div>
   );
 };
