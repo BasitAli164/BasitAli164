@@ -13,7 +13,7 @@ const Product = () => {
           <h4 className="text-lg sm:text-xl md:text-2xl xl:text-3xl font-semibold tracking-[1px]">
             Best in Class
           </h4>
-          <p className="text-sm md:text-lg lg:text-xl xl:text-2xl opacity-70">
+          <p className="text-lg lg:text-xl xl:text-2xl opacity-70">
             Holisticly predominate extensible testing procedures for reliable
             supply chains. Dynamically innovate resource-leveling customer
             service for state of the art customer service.
@@ -30,7 +30,7 @@ const Product = () => {
           <h4 className="text-lg sm:text-xl md:text-2xl xl:text-3xl font-semibold tracking-[1px]">
             Superior Qaulity
           </h4>
-          <p className="text-sm md:text-lg lg:text-xl xl:text-2xl opacity-70">
+          <p className="text-lg lg:text-xl xl:text-2xl opacity-70">
             Holisticly predominate extensible testing procedures for reliable
             supply chains. Dynamically innovate resource-leveling customer
             service for state of the art customer service.
