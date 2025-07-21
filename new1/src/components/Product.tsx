@@ -3,7 +3,7 @@ import img1 from '../../public/images/microphone.jpg'
 import img2 from '../../public/images/iphone.jpg'
 const Product = () => {
   return (
-    <div>
+    <div className='flex'>
         <div>
             <div>
               <Image src={img1} alt='microphone-img'/>
