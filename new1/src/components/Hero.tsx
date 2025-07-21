@@ -1,5 +1,4 @@
 import React from "react";
-import heroImage from "../../public/images/header.jpg";
 
 const Hero = () => {
   return (
