@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen flex flex-col justify-center items-center gap-3 md:gap-6 lg:gap-10 bg-[url("../../public/images/header.jpg")] bg-cover bg-center'>
+    <div className='w-full h-screen flex flex-col justify-center items-center gap-3 md:gap-6 lg:gap-10 bg-[url("/images/header.jpg")] bg-cover bg-center'>
       <h1 className="text-center text-2xl md:text-5xl lg:text-8xl tracking-[3px]  font-bold text-white ">
         Dramatically Engage
       </h1>
