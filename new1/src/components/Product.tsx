@@ -8,7 +8,7 @@ const Product = () => {
             <div className='w-10/12'>
               <Image src={img1} alt='microphone-img' className='rounded-full'/>
             </div>
-            <div>
+            <div className='flex flex-col justify-center items-center gap-32'>
               <h4>Best in Class</h4>
               <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
               <div>
