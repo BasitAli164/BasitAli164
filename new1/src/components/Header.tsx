@@ -33,10 +33,10 @@ const Header = () => {
           >
             Service <ArrowDown size={15} />
             {serviceToggle && (
-              <ul className="w-44 bg-white absolute top-8 left-0 shadow-xl rounded-sm z-50">
-                <li className="px-5 py-2 text-lg hover:text-[yellowgreen] cursor-pointer transition duration-700 delay-100 ease-in-out">Engage</li>
-                <li className="px-5 py-2 text-lg hover:text-[yellowgreen] cursor-pointer transition duration-700 delay-100 ease-in-out">Pontificate</li>
-                <li className="px-5 py-2 text-lg hover:text-[yellowgreen] cursor-pointer transition duration-700 delay-100 ease-in-out">Synergize</li>
+              <ul className="w-44 bg-white absolute top-12 left-0 shadow-xl rounded-sm z-100">
+                <li className="px-5 py-2 text-lg hover:text-[yellowgreen] cursor-pointer transition duration-700 delay-100 ease-in-out text-black">Engage</li>
+                <li className="px-5 py-2 text-lg hover:text-[yellowgreen] cursor-pointer transition duration-700 delay-100 ease-in-out text-black">Pontificate</li>
+                <li className="px-5 py-2 text-lg hover:text-[yellowgreen] cursor-pointer transition duration-700 delay-100 ease-in-out text-black">Synergize</li>
               </ul>
             )}
           </li>
@@ -58,7 +58,7 @@ const Header = () => {
 
       {/* Mobile Menu - Fixed so it shows even if you're in the middle or bottom of the page */}
       {toggle && (
-        <ul className="w-full fixed top-20 left-0 md:hidden bg-white shadow-lg z-40">
+        <ul className="w-full fixed top-[70px] left-0 md:hidden bg-white shadow-lg z-40">
           <li className="list-none px-5 py-2 text-lg cursor-pointer text-[yellowgreen] hover:text-[yellowgreen] transition delay-100 duration-700 ease-in-out">
             Home
           </li>
