@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { ArrowDown, MenuSquare } from "lucide-react";
 
 const Header = () => {

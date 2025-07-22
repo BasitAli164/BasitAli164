@@ -1,4 +1,4 @@
-import { Mail, Phone, Pin, PinIcon } from "lucide-react";
+import { Mail, Phone,  PinIcon } from "lucide-react";
 const Contact = () => {
   return (
     <div className="w-full h-screen flex flex-col mt-20 items-center">
