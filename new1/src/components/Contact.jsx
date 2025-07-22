@@ -1,4 +1,4 @@
-import { Phone, Pin, PinIcon } from "lucide-react";
+import { Mail, Phone, Pin, PinIcon } from "lucide-react";
 const Contact = () => {
   return (
     <div className="w-full h-screen flex flex-col mt-20 items-center">
@@ -20,8 +20,11 @@ const Contact = () => {
         </div>
       </div>
       <div className="w-full h-screen bg-[yellowgreen] flex flex-col justify-center items-center gap-8">
-        <p>Contact Us</p>
+        <p className="text-xl md:text-3xl xl:text-5xl font-bold text-white">Contact Us</p>
         <Phone/>
+        <p>+923 475495500</p>
+        <Mail/>
+        <p>basitdeveloper911@gamil.com</p>
       </div>
     </div>
   );
