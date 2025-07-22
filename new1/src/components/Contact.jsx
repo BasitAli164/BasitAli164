@@ -1,8 +1,8 @@
-import { Pin, PinIcon } from "lucide-react";
+import { Phone, Pin, PinIcon } from "lucide-react";
 const Contact = () => {
   return (
     <div className="w-full h-screen flex flex-col mt-20 items-center">
-      <div className="flex justify-center items-center flex-col gap-4">
+      <div className="flex justify-center items-center flex-col gap-4 mb-10">
         <PinIcon
           className="transform rotate-[60deg] text-4xl text-[yellowgreen]"
           size={40}
@@ -19,8 +19,9 @@ const Contact = () => {
           </button>
         </div>
       </div>
-      <div className="bg-[yellowgreen] flex flex-col justify-center items-center gap-8">
+      <div className="w-full h-screen bg-[yellowgreen] flex flex-col justify-center items-center gap-8">
         <p>Contact Us</p>
+        <Phone/>
       </div>
     </div>
   );
