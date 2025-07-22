@@ -5,6 +5,7 @@ import { ArrowDown, MenuSquare } from "lucide-react";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   const [serviceToggle, setServiceToggle] = useState(false);
+  const [scroll , setScroll]=useState(false)
 
   useEffect(()=>{
     
