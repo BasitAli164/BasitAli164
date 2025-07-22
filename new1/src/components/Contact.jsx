@@ -21,10 +21,10 @@ const Contact = () => {
       </div>
       <div className="w-full h-screen bg-[yellowgreen] flex flex-col justify-center items-center gap-8">
         <p className="text-xl md:text-3xl xl:text-5xl font-bold text-white">Contact Us</p>
-        <Phone/>
-        <p>+923 475495500</p>
-        <Mail/>
-        <p>basitdeveloper911@gamil.com</p>
+        <Phone className="size-10 text-white"/>
+        <p className="text-lg md:text-xl xl:text-2xl text-white">+923 475495500</p>
+        <Mail className="size-10 text-white"/>
+        <p className="text-lg md:text-xl xl:text-2xl text-white">basitdeveloper911@gamil.com</p>
       </div>
     </div>
   );
