@@ -33,7 +33,7 @@ const Contact = () => {
         </p>
       </div>
     </div>
-  );
+  )
 };
 
 export default Contact;
