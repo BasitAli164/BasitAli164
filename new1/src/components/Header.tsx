@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="w-full flex justify-between md:items-center bg-transparent px-16 py-5 border-b-[2px] fixed z-50">
+      <header className={`w-full flex justify-between md:items-center ${scroll?'bg-white transition duration-700 delay-100 ease-in-out':'bg-transparent'} px-16 py-5 border-b-[2px] fixed z-50`}>
         <div>
           <p className="tracking-[3px] text-[yellowgreen] text-xl cursor-pointer font-bold transition duration-700 delay-100 ease-in-out">
             LOGO
@@ -40,13 +40,13 @@ const Header = () => {
           <li className="text-lg opacity-60 cursor-pointer hover:opacity-100 text-[yellowgreen] transition delay-100 duration-700 ease-in-out">
             Home
           </li>
-          <li className="text-lg opacity-60 cursor-pointer hover:opacity-100 transition delay-100 duration-700 ease-in-out text-white">
+          <li className={`text-lg opacity-60 cursor-pointer hover:opacity-100 transition delay-100 duration-700 ease-in-out ${scroll?'text-black':'text-white'}`}>
             Products
           </li>
 
           {/* Service Dropdown */}
           <li
-            className="relative flex items-center gap-1 text-lg cursor-pointer opacity-50 hover:opacity-100 transition delay-100 duration-700 ease-in-out text-white"
+            className={`relative flex items-center gap-1 text-lg cursor-pointer opacity-50 hover:opacity-100 transition delay-100 duration-700 ease-in-out ${scroll?'text-black':'text-white'}`}
             onClick={() => setServiceToggle(!serviceToggle)}
           >
             Service <ArrowDown size={15} />
@@ -59,7 +59,7 @@ const Header = () => {
             )}
           </li>
 
-          <li className="text-lg opacity-60 cursor-pointer hover:opacity-100 transition delay-100 duration-700 ease-in-out text-white">
+          <li className={`text-lg opacity-60 cursor-pointer hover:opacity-100 transition delay-100 duration-700 ease-in-out ${scroll?'text-black':'text-white'} `}>
             Contact
           </li>
         </ul>
