@@ -8,6 +8,9 @@ const Header = () => {
   const [scroll , setScroll]=useState(false)
 
   useEffect(()=>{
+    const handleScroll=()=>{
+      const offset=window.scrollY;
+    }
     
   },[])
 
