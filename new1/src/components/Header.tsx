@@ -1,10 +1,14 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { ArrowDown, MenuSquare } from "lucide-react";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   const [serviceToggle, setServiceToggle] = useState(false);
+
+  useEffect(()=>{
+    
+  },[])
 
 
 
