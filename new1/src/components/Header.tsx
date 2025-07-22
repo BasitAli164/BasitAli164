@@ -10,7 +10,7 @@ const Header = () => {
   useEffect(()=>{
     const handleScroll=()=>{
       const offset=window.scrollY;
-      if(offset>50){
+      if(offset>100){
         setScroll(true)
       }else{
         setScroll(false)
@@ -68,7 +68,7 @@ const Header = () => {
         <div className="md:hidden">
           <MenuSquare
             className="cursor-pointer"
-            color="#e9e9e9"
+            color={` ${scroll?'black':'white'}`}
             onClick={() => setToggle(!toggle)}
           />
         </div>
