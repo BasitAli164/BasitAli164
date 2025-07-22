@@ -10,7 +10,7 @@ const Header = () => {
   useEffect(()=>{
     const handleScroll=()=>{
       const offset=window.scrollY;
-      if(offset>100){
+      if(offset>50){
         setScroll(true)
       }else{
         setScroll(false)
