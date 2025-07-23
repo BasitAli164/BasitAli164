@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
+    <div style={{display:"flex", justifyContent:"space-around" ,alignItems:"center" ,gap:"10px"}}>
         <h1>Header Component</h1>
-        <button style={{padding:"8px 14px", borderRadius:"5px" ,border:"none"}}> Change count</button>
+        <button style={{padding:"10px 20px", borderRadius:"50px" ,border:"none",cursor:"pointer",fontSize:"20px",fontWeight:"bold"}}> Change count</button>
       
     </div>
   )
