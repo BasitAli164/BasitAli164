@@ -1,4 +1,11 @@
+import { title } from 'process';
 import React from 'react'
+export const generateMetadata=async({params})=>{
+  const parametter=await params;
+  return {
+    title:`Sevcie: ${parametter}`
+  }
+}
 
 const  page = async({params }) => {
   const parameter=await params
