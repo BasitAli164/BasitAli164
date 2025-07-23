@@ -1,5 +1,13 @@
 
+import { title } from "process";
 import "./globals.css";
+
+export const metadata={
+  title:{
+    template:"%s | Basit",
+    default:"Basit"
+  }
+}
 
 
 

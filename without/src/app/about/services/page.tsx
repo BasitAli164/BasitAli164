@@ -1,5 +1,8 @@
 import React from 'react'
 
+export const metadata={
+  title:"Servcie"
+}
 const Service = () => {
   return (
     <div className='w-full h-screen mt-10 text-center  '>
