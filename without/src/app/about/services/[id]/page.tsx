@@ -1,6 +1,6 @@
 import React from 'react'
 
-const  page = async({params}) => {
+const  page = async({params }) => {
   const parameter=await params
   console.log(parameter)
   return (
