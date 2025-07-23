@@ -8,7 +8,7 @@ const HomePage = () => {
   const [count,setCount]=useState(1)
 
   return (
-  <div className="w-full h-screen flex flex-col justify-center items-center gap-5 text-white">
+  <div style={}>
  <Header/>
  <h1>Welcome to Home Page {count}</h1>
  <Footer/>
