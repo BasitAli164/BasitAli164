@@ -9,13 +9,15 @@ import Footer from "@/components/Footer"
 const Home = () => {
   return (
     <>
+    {/*
+    Template -1
     <Header/>
     <Hero/>
     <Advertise/>
     <Product/>
     <Service/>
     <Contact/>
-    <Footer/>
+    <Footer/> */}
       
     </>
   )
