@@ -1,6 +1,6 @@
 import Image from "next/image";
-import img1 from "../../public/images/microphone.jpg";
-import img2 from "../../public/images/iphone.jpg";
+import img1 from "../../../public/images/microphone.jpg";
+import img2 from "../../../public/images/iphone.jpg";
 const Product = () => {
   return (
     <div className="flex flex-col justify-center items-center">

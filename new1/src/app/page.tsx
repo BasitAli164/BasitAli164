@@ -1,17 +1,11 @@
+import Template from "@/components/Template-1/Template"
 
 
 const Home = () => {
   return (
     <>
-    {/*
-    Template -1
-    <Header/>
-    <Hero/>
-    <Advertise/>
-    <Product/>
-    <Service/>
-    <Contact/>
-    <Footer/> */}
+    <Template/>
+   
       
     </>
   )
