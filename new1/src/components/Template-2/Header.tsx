@@ -1,19 +1,22 @@
 import { ArrowBigDown, ShoppingCart } from 'lucide-react'
+import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
   return (
-    <div className='w-full fixed flex justify-between items-center p-10
+    <div className='w-full fixed flex justify-between items-center p-5
     bg-red-900'>
         <div>
             <p>🔥 LOGO</p>
         </div>
         <ul>
-            <li>Home</li>
-            <li>Products</li>
-            <li>Service <ArrowBigDown/></li>
-            <li>My Account</li>
-            <li><ShoppingCart/> My Cart</li>
+           <Link href={'/'}>Home</Link>
+           <Link href={'/product'}>Product</Link>
+           <Link href={'/service'}>Service</Link>
+           <Link href={'/account'}>My Account</Link>
+           <Link href={'/account'}>My Account</Link>
+           
+
         </ul>
       
     </div>
