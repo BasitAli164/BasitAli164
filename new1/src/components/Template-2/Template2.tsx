@@ -1,9 +1,10 @@
 import React from 'react'
+import Header from './Header'
 
 const Template2 = () => {
   return (
     <div>
-      <h1>Try to something new</h1>
+      <Header/>
     </div>
   )
 }
