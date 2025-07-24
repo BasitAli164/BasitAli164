@@ -4,7 +4,7 @@ import Template from "@/components/Template-1/Template"
 const Home = () => {
   return (
     <>
-    <Template/>
+    {/* <Template/> */}
    
       
     </>
