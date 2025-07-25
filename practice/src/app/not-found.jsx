@@ -1,4 +1,7 @@
 import Link from "next/link"
+export const metadata={
+  title:"Not Fount"
+}
 export default function NotFount() {
   return (
     <div className="w-full h-screen flex flex-col justify-center items-center gap-10">
