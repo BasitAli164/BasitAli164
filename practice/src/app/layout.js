@@ -2,8 +2,8 @@ import "./globals.css";
 
 export const metadata={
   title:{
-    template:"%s | Ecommerce ",
-    default:"Basit Ecommerce"
+    template:"%s",
+    default:"Basit's Ecommerce"
   }
 }
 
