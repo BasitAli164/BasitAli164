@@ -6,13 +6,7 @@ export default async function Login() {
     const [email,setEmail]=useState("")
 
     useEffect(async ()=>{
-        try {
-            const res=await fetch("/api/login")
-            console.log(res.data)
-           
-        } catch (error) {
-            
-        }
+       
 
     },[])
 
