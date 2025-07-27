@@ -12,7 +12,7 @@ export default function Todo() {
     const fetchTodos = async () => {
       try {
         const response = await fetch(
-          "https://jsonplaceholder.typicode.com/todos"
+          "https://jsonplaceholder.typicode.com/todos?_limit=10"
         );
         const data = await response.json();
         setTodo(data);
@@ -26,7 +26,7 @@ export default function Todo() {
     fetchTodos();
   }, []);
   if (loading) return <p className="text-5xl text-white">Loading....</p>;
-  if (error === false) return <p>Error: {error}</p>;
+  if (error === false) return <p>Error: {error.message}</p>;
   return (
     <div>
       {todo.map((item) => (
