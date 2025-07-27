@@ -26,17 +26,16 @@ export default async function Albums() {
 
       }
     </div>
-    <div>
-      <h1>User Details</h1>
+    <div className="mt-10">
+      <h1 className="text-center text-3xl font-bold mb-5">User Details</h1>
       {
-        user.map(({id,name,email})=>{
-          <div key={id}>
+        user.map(({id,name,email})=>(
+          <div key={id} className="grid grid-cols-2 gap-5 ">
             <p>Name: {name}</p>
             <p>Email: {email}</p>
-            
 
           </div>
-        })
+        ))
       }
     </div>
     </>
