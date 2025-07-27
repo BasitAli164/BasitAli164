@@ -3,15 +3,16 @@ import React, { useEffect, useState } from 'react'
 
 export default function page() {
     const [comment,setComment]=useState([])
-    // const [loading,setLoading]=useState(false)
+    const [loading,setLoading]=useState(false)
 
     useEffect(()=>{
         const fetchComments=async()=>{
             try {
                 const response= await fetch("https://jsonplaceholder.typicode.com/comments")
                 const data=await response.json()
-                // setLoading(true)
+                setLoading(true)
                 setComment(data)
+                setLoading(false)
                 console.log(data)
                 
             } catch (error) {
@@ -22,13 +23,13 @@ export default function page() {
         }
                 fetchComments()
 
-        // return ()=>{
-        //     setLoading(false)
-        // }
+        return ()=>{
+            setLoading(false)
+        }
     },[])
 
     if(!comment) return <div>There is no Comment</div>
-    // if(loading) return <h1>Loading....</h1>
+    if(loading) return <h1 className='text-9xl text-white'>Loading....</h1>
   return (
     <div>
         {
