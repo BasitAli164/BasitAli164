@@ -1,3 +1,4 @@
+'use client'
 import React, { useEffect, useState } from 'react'
 
 export default function Phots() {
@@ -12,12 +13,13 @@ export default function Phots() {
             try {
                 const res=await fetch('https://jsonplaceholder.typicode.com/photos')
                 const data=await res.json()
+                setPhoto(data)
                 console.log("data is:",data)
                 
             } catch (error) {
                 console.log(typeof error)
 
-                
+
 
                 
             }finally{
@@ -25,6 +27,8 @@ export default function Phots() {
             }
         }
     },[])
+
+    if(loading) return <h1>loading..</h1>
   return (
     <div>
       
