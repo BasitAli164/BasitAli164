@@ -11,7 +11,7 @@ export default function Phots() {
         const fetchPhotos=async()=>{
             setLoading(true)
             try {
-                const res=await fetch('https://jsonplaceholder.typicode.com/photos')
+                const res=await fetch('https://jsonplaceholder.typicode.com/users')
                 const data=await res.json()
                 setPhoto(data)
                 console.log("data is:",data)
@@ -26,9 +26,10 @@ export default function Phots() {
                 setLoading(false)
             }
         }
+        fetchPhotos()
     },[])
 
-    if(loading) return <h1>loading..</h1>
+    if(loading) return <h1 className='text-white text-5xl'>loading..</h1>
   return (
     <div>
       
