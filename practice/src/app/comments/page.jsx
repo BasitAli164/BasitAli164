@@ -10,7 +10,9 @@ export default function page() {
       setLoading(true);
 
       try {
-        const response = await fetch("https://jsonplaceholder.typicode.com/comments?_limit=10");
+        const response = await fetch(
+          "https://jsonplaceholder.typicode.com/comments?_limit=10"
+        );
         const data = await response.json();
         setComment(data);
         console.log(data);
@@ -24,7 +26,7 @@ export default function page() {
   }, []);
 
   if (loading) return <h1 className="text-9xl text-white">Loading....</h1>;
-  if (comment.length===0) return <h2>There is no data fetch</h2>
+  if (comment.length === 0) return <h2>There is no data fetch</h2>;
   return (
     <div>
       {comment.map((item) => (
