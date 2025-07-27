@@ -17,7 +17,7 @@ export default async function Albums() {
     <div>
        <h1>Albums Detail</h1>
       {
-        data.map(({id,title})=>(
+        albums.map(({id,title})=>(
           <div key={id}>
            
             <h1>Title: {title}</h1>
