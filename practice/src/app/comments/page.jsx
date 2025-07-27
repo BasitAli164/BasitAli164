@@ -8,15 +8,14 @@ export default function page() {
     useEffect(()=>{
         const fetchComments=async()=>{
             try {
-                const response= await fetch("https://jsonplaceholder.typicode.com/comments")
+                const response= await fetch("https://jsonplaceholder.typicode.com/comments?_limit=10")
                 const data=await response.json()
                 setLoading(true)
                 setComment(data)
-                setLoading(false)
                 console.log(data)
                 
             } catch (error) {
-                console.log("Error is comment page:",error)
+                console.log("Error is comment page:",error.message)
                 
             }
 
@@ -33,9 +32,11 @@ export default function page() {
   return (
     <div>
         {
-            comment.map(item=><div id={item.id}>
+            comment.map((item,index)=>(
+                <div key={item.id}>
                     <h1>{item.email}</h1>
-                </div>)
+                </div>
+            ))
         }
       
     </div>
