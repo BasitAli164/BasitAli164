@@ -43,10 +43,10 @@ export default async function Albums() {
       <h2 className="text-3xl font-bold text-center mt-5
       ">Todos Detail</h2>
       {
-        todos.map(({id,title, completed})=>(
+        todos.map(({id,title,completed})=>(
           <div key={id} className="grid grid-cols-2 gap-5">
             <p>Title: {title}</p>
-            <p>Complete: {completed}</p>
+            <p>Complete: {completed?"True":"False"}</p>
           </div>
         ))
       }
