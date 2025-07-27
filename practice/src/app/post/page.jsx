@@ -6,7 +6,7 @@ export default function page() {
     useEffect(()=>{
        const fetchData=async ()=>{
         try {
-            const res=await fetch('https://jsonplaceholder.typicode.com/posts?_limit=5')
+            const res=await fetch('https://jsonplaceholder.typicode.com/posts?_limit=10')
             const data= await res.json()
             if(!res){
                 return <h1>Does not Fetch</h1>
