@@ -1,0 +1,33 @@
+import React, { useEffect, useState } from 'react'
+
+export default function Phots() {
+
+    const [photo,setPhoto]=useState([])
+    const [loading,setLoading]=useState(false)
+
+
+    useEffect(()=>{
+        const fetchPhotos=async()=>{
+            setLoading(true)
+            try {
+                const res=await fetch('https://jsonplaceholder.typicode.com/photos')
+                const data=await res.json()
+                console.log("data is:",data)
+                
+            } catch (error) {
+                console.log(typeof error)
+
+                
+
+                
+            }finally{
+                setLoading(false)
+            }
+        }
+    },[])
+  return (
+    <div>
+      
+    </div>
+  )
+}
