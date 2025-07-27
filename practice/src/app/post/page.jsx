@@ -12,7 +12,7 @@ export default function page() {
                 return <h1>Does not Fetch</h1>
             }
             console.log("Res:",data)
-            setPost(res)
+            setPost(data)
             
         } catch (error) {
             console.log("Error is :",error)
@@ -25,12 +25,12 @@ export default function page() {
   return (
     <div>
        {
-        post.map((item)=>(
+        post.map((item)=>
             <div id={item.id}>
                 <h1>Title of Post: {item.title}</h1>
 
             </div>
-        ))
+        )
        }
       
     </div>
