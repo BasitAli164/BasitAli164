@@ -7,7 +7,8 @@ export default async function All() {
         // as you wish
         
     ])
-    console.log("All :",alls)
+    // const data=await all.json()
+    console.log("All :",all)
   return (
     <div>
       
