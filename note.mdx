@@ -68,3 +68,8 @@ Ans:
     In both component we can fetch data easy but there method is different , now we discuss in detail
     1.Client Component 
         In client component we take help hook of the react like useState and useEffect and there we use a directives which is must be required to declare in the top of the client component because the next js provide server component by default therefore we required this directives
+
+        Note: 
+            we cann't make the client component async there fore we use useEffect
+    2. Server component
+        Here we don't use any directives and hook , we directly fetch data using fetch component and store them in a variable and show , here we can use async with server compoente
