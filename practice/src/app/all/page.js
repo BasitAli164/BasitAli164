@@ -29,6 +29,10 @@ const url = [
   "https://jsonplaceholder.typicode.com/comments?_limit=5",
   "https://jsonplaceholder.typicode.com/albums?_limit=5",
 ];
-export default function page() {
+export default async function Parallel() {
+
+    const [post,comment,album]=await Promise.all(url)
+        console.log("Post Data: ",post,"\n","Comment Data: ",comment,'\n',"AlbumData: ",album)
+
   return <div></div>;
 }
