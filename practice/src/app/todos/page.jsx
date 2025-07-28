@@ -16,7 +16,7 @@ export default function Todo() {
         );
         const data = await response.json();
         setTodo(data);
-        console.log("data is:", data);
+        // console.log("data is:", data);
       } catch (error) {
         setError(error.message);
       } finally {
