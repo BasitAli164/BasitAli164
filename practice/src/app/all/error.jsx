@@ -5,6 +5,8 @@ export default function Error({error}) {
   return (
     <div>
         <h1>Error page</h1>
+        <p>Name:{error.name}</p>
+        <p>Message: {error.message}</p>
     </div>
   )
 }
