@@ -6,7 +6,9 @@ export default function Error({error}) {
     <div>
         <h1>Error page</h1>
         <p>Name:{error.name}</p>
-        <p>Message: {error.message}</p>
+        <p>Message: {error.message}</p> 
+        <p>Stack: {error.stack}</p>
+        <p>Digest: {error.digest}</p>
     </div>
   )
 }
