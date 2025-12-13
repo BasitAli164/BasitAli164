@@ -1,7 +1,7 @@
 # 💫 About Me:
 ### 👋 Hi, I'm Basit Ali
 
-💻 I'm a Web Developer at **NETBOTS**  
+💻 I'm a Web Developer 
 🎓 CS Student at **University of Baltistan**, Skardu  
 🛠 Full Stack Dev — Next.js • Node.js • MongoDB • Tailwind • TypeScript
 
