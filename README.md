@@ -1,18 +1,71 @@
 # 💫 About Me:
+
 ### 👋 Hi, I'm Basit Ali
 
-💻 I'm a Web Developer 
-🎓 CS Student at **University of Baltistan**, Skardu  
-🛠 Full Stack Dev — Next.js • Node.js • MongoDB • Tailwind • TypeScript
+💻 Software Developer | Web Development & Generative AI
+🎓 CS Student
+🚀 Passionate about building scalable web apps and AI-powered solutions
 
 ---
 
-- 👯 I want to collaborate on **open-source projects**, **innovative web apps**, or **AI integrations**
-- 🌱 I’m currently learning **Gem-ai**, **Redux Toolkit**, and **ChromaDB**
-- 💬 Ask me about **JavaScript frameworks**, **backend optimization**, or **tech career advice**
-- ⚡ Fun fact: *Don't judge a book by its cover!*
+🛠 **Tech Stack**
+HTML • CSS • Tailwind CSS • JavaScript • TypeScript
+Node.js • React.js • Next.js • Express.js
+MongoDB • SQLite
 
 ---
+
+🚀 **What I Do**
+
+* Build modern, responsive web applications with focus on performance & UX
+* Develop AI-powered solutions using Generative AI concepts
+* Work on full-stack projects including blogging platforms & e-commerce apps
+
+---
+
+🌐 **Deployment & DevOps**
+
+* Deploy apps on **Vercel** (frontend) & **Railway** (backend)
+* Experience with **Hostinger**, **Nginx configuration**, and production environments
+* Manage databases and secure backend systems using environment variables
+
+---
+
+🧠 **Problem Solving & Growth**
+
+* Actively participate in international coding competitions
+* Solve advanced problems from platforms inspired by **MIT**, **Harvard**, and global contests
+* Continuously improving analytical and algorithmic thinking
+
+---
+
+👨‍🏫 **Leadership & Research**
+
+* Worked as a **Section Leader**, mentoring and teaching students
+* Published research work, showing strong interest in innovation
+
+---
+
+🌱 **Currently Exploring**
+Generative AI • Advanced Backend Systems • Scalable Architectures
+
+---
+
+🤝 **Open to Collaborate On**
+
+* Open-source projects
+* AI-integrated applications
+* Innovative full-stack solutions
+
+---
+
+⚡ **Goal**
+To pursue higher education and contribute to impactful innovations in AI and software engineering
+
+---
+
+💬 *"Building technology that solves real-world problems."*
+
 
 
 
